@@ -215,27 +215,47 @@ body {
 }
 
 /* --- SEÇÃO DE CONTATO --- */
-.contact-form {
-    max-width: 600px;
-    margin: 2rem auto 0;
+.contact-section .container {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    align-items: center; /* Centraliza o conteúdo */
 }
 
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
+.contact-section .text-center {
+    max-width: 600px;
+    margin-bottom: 2rem;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
+/* Estilo para o novo botão de contato do WhatsApp */
+.whatsapp-contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px; /* Espaço entre o ícone e o texto */
+}
+
+.whatsapp-contact-button svg {
+    width: 24px;
+    height: 24px;
+    /* A cor (fill) será herdada (currentColor) do 'color' do .cta-button */
+}
+
+/* Estilo para o link de telefone */
+.phone-contact {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.phone-contact a {
+    color: var(--heading-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.phone-contact a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 
 /* --- RODAPÉ --- */
