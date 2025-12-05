@@ -28,4 +28,4 @@ O projeto é construído com HTML, CSS e JavaScript puros, focando em um design 
 
 ## 📁 Estrutura de Arquivos
 
-[Acesse Aqui =>] (https://github.com/brunocroft86/psicologia)
+[Acesse Aqui =>] (https://brunocroft86.github.io/psicologia/)
